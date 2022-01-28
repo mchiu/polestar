@@ -9,9 +9,8 @@
               integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
               crossorigin="anonymous"></script>
     <style>
-      td { font-size: .7em };
+      td, .smaller { font-size: .7em };
       #research { font-size: 1em; color: red; }
-      .smaller { font-size: .6em; }
     </style>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
