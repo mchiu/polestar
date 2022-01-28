@@ -11,6 +11,7 @@
     <style>
       td { font-size: .7em };
       #research { font-size: 1em; color: red; }
+      .smaller { font-size: .6em; }
     </style>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -25,7 +26,9 @@
 </head>
 
 <body>
-    <span id="research">** For research purposes only. Check the <a href="https://polestar.com">Polestar website</a> for official data. **</span>
+    <div id="research">** For research purposes only. Check the <a href="https://polestar.com">Polestar website</a> for official data. **</div>
+    <span class="smaller">Filters are saved, but it's a little buggy ... To reset a filter to all values, choose a value, and then choose the blank value ...</span>
+  
 
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.4/css/jquery.dataTables.min.css">
     <script src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.min.js"></script>
