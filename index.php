@@ -9,7 +9,7 @@
               integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
               crossorigin="anonymous"></script>
     <style>
-      td { font-size: .8em };
+      td { font-size: .7em };
     </style>
 </head>
 
@@ -44,12 +44,32 @@ $(document).ready(function() {
                 "searchable": false
             }
         
-        ]
-    });
-});
+        ],
+initComplete: function () {
+            this.api().columns().every( function () {
+                var column = this;
+                var select = $('<select><option value=""></option></select>')
+                    .appendTo( $(column.footer()).empty() )
+                    .on( 'change', function () {
+                        var val = $.fn.dataTable.util.escapeRegex(
+                            $(this).val()
+                        );
+ 
+                        column
+                            .search( val ? '^'+val+'$' : '', true, false )
+                            .draw();
+                    } );
+ 
+                column.data().unique().sort().each( function ( d, j ) {
+                    select.append( '<option value="'+d+'">'+d+'</option>' )
+                } );
+            } );
+        }
+    } );
+} );
 </script>
 
-    <table class="table table-striped table-bordered" id="example" border="1" cellpadding="2" cellspacing="0" >
+    <table id="example" class="display" style="width:100%">
       <thead>
         <tr>
           <th>Dealer</th>
@@ -73,5 +93,24 @@ $(document).ready(function() {
 
 <?php echo file_get_contents("http://overlunch.com/pole/csv/data.html"); ?>
     </tbody>
-    </table>
+<tfoot>
+<tr>
+          <th>Dealer</th>
+          <th>pno34</th>
+          <th>pno34_dealerCode</th>
+          <th>EarliestDelivery</th>
+          <th>TotalPrice</th>
+          <th>Color</th>
+          <th>Upholstery</th>
+          <th>Rims</th>
+          <th>Model</th>
+          <th>Engine</th>
+          <th>modelYear</th>
+          <th>Performance</th>
+          <th>Pilot</th>
+          <th>Plus</th>
+          <th>end</th>
+        </tr>
+</tfoot>
+  </table>
   </body>
