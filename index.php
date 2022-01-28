@@ -3,17 +3,20 @@
 
   <head>
     <meta charset="utf-8" />
-    <title></title>
+    <title>Polestar Fun Tracker</title>
 <script
               src="https://code.jquery.com/jquery-3.6.0.js"
               integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
               crossorigin="anonymous"></script>
     <style>
       td { font-size: .7em };
+      #research { font-size: 1em; color: red; }
     </style>
 </head>
 
 <body>
+    <span id="research">** For research purposes only. Check the <a href="https://polestar.com">Polestar website</a> for official data. **</span>
+
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.4/css/jquery.dataTables.min.css">
     <script src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.min.js"></script>
 
