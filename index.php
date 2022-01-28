@@ -21,6 +21,7 @@
 $(document).ready(function() {
     $('#example').dataTable( {
         "pageLength": 25,
+      "paging":   false,
       "columnDefs": [
             {
                 "targets": [ 1 ],
