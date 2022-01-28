@@ -23,8 +23,9 @@
 <script>
 $(document).ready(function() {
     $('#example').dataTable( {
-        "pageLength": 20,
-      "paging":   true,
+      "pageLength": 20,
+      "paging": true,
+      "stateSave": true,
       "columnDefs": [
             {
                 "targets": [ 1 ],
