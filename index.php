@@ -12,6 +12,16 @@
       td { font-size: .7em };
       #research { font-size: 1em; color: red; }
     </style>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-L4ZW9CP97S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-L4ZW9CP97S');
+</script>
 </head>
 
 <body>
