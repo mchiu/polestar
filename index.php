@@ -20,7 +20,7 @@ $(document).ready(function() {
         "pageLength": 25,
         "order": [[5, "asc" ]]
     });
-
+});
 </script>
 
     <table class="table table-striped table-bordered" id="example" border="1" cellpadding="2" cellspacing="0" >
