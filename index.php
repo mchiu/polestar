@@ -18,7 +18,22 @@
 $(document).ready(function() {
     $('#example').dataTable( {
         "pageLength": 25,
-        "order": [[5, "asc" ]]
+      "columnDefs": [
+            {
+                "targets": [ 1 ],
+                "visible": false,
+                "searchable": false
+            },
+            {
+                "targets": [ 2 ],
+                "visible": false,
+                "searchable": false
+            },
+            {
+                "targets": [ 10 ],
+                "visible": false,
+                "searchable": false
+            },
     });
 });
 </script>
@@ -26,7 +41,7 @@ $(document).ready(function() {
     <table class="table table-striped table-bordered" id="example" border="1" cellpadding="2" cellspacing="0" >
       <thead>
         <tr>
-          <th>dealerCode</th>
+          <th>Dealer</th>
           <th>pno34</th>
           <th>pno34_dealerCode</th>
           <th>EarliestDelivery</th>
