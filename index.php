@@ -20,8 +20,8 @@
 <script>
 $(document).ready(function() {
     $('#example').dataTable( {
-        "pageLength": 25,
-      "paging":   false,
+        "pageLength": 20,
+      "paging":   true,
       "columnDefs": [
             {
                 "targets": [ 1 ],
