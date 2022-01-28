@@ -33,7 +33,8 @@ $(document).ready(function() {
                 "targets": [ 10 ],
                 "visible": false,
                 "searchable": false
-            },
+            }
+        ]
     });
 });
 </script>
