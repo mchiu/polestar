@@ -8,6 +8,9 @@
               src="https://code.jquery.com/jquery-3.6.0.js"
               integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
               crossorigin="anonymous"></script>
+    <style>
+      td { font-size: .8em };
+    </style>
 </head>
 
 <body>
@@ -33,7 +36,13 @@ $(document).ready(function() {
                 "targets": [ 10 ],
                 "visible": false,
                 "searchable": false
+            },
+            {
+                "targets": [ 14 ],
+                "visible": false,
+                "searchable": false
             }
+        
         ]
     });
 });
