@@ -26,7 +26,7 @@
 
 <body>
     <div id="research">** For research purposes only. Check the <a href="https://polestar.com">Polestar website</a> for official data. **</div>
-    <span class="smaller">Filters are saved, but it's a little buggy ... To reset a filter to all values, choose a value, and then choose the blank value ...</span>
+    <span class="smaller">Each filter now allows multiple selections. Command + click to select additional options.</span>
   
 
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.4/css/jquery.dataTables.min.css">
@@ -61,18 +61,18 @@ $(document).ready(function() {
             }
         
         ],
-initComplete: function () {
+        initComplete: function () {
             this.api().columns().every( function () {
                 var column = this;
-                var select = $('<select><option value=""></option></select>')
+                var select = $('<select multiple="multiple"><option value=""></option></select>')
                     .appendTo( $(column.footer()).empty() )
                     .on( 'change', function () {
-                        var val = $.fn.dataTable.util.escapeRegex(
-                            $(this).val()
-                        );
+                        var vals = $('option:selected', this).map(function (index, element) {
+                        	return $.fn.dataTable.util.escapeRegex($(element).val());
+                        }).toArray().join('|');
  
                         column
-                            .search( val ? '^'+val+'$' : '', true, false )
+                            .search( vals.length > 0 ? '^('+vals+')$' : '', true, false )
                             .draw();
                     } );
  
