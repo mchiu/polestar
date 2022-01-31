@@ -25,7 +25,10 @@
 </head>
 
 <body>
-    <div id="research">** For research purposes only. Check the <a href="https://polestar.com">Polestar website</a> for official data. **</div>
+    <div style="color: red">** Update 2022-01-31 Official Polestar website has changed. Now you can see all cars at a space without needing to make a filter selection.
+      They've also changed something, which is resulting in only 10 cars per space showing up ... **</div>
+
+  <div style="color: red">** For research purposes only. Check the <a href="https://polestar.com">Polestar website</a> for official data. **</div>
     <span class="smaller">Each filter now allows multiple selections. Command + click to select additional options.</span>
   
 
