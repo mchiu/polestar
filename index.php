@@ -28,8 +28,8 @@
 
     <div style="color: red">** For research purposes only. Check the <a href="https://polestar.com">Polestar website</a> for official data. **</div>
     <div style="color: red">** Update 2022-01-31 Official Polestar website changed their code to add pagination. Work around applied ... **</div>
-    <div class="smaller">Each filter now allows multiple selections. Command + click to select additional options.</djv>
-    <div class="smaller">Comments and questions may be sent to polestarfund@gmail.com</djv>
+    <div class="smaller">Each filter now allows multiple selections. Command + click to select additional options.</div>
+    <div class="smaller">Comments and questions may be sent to polestarfund@gmail.com</div>
   
 
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.4/css/jquery.dataTables.min.css">
