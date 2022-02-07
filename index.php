@@ -53,7 +53,7 @@ $(document).ready(function() {
                 "searchable": false
             },
             {
-                "targets": [ 10 ],
+                "targets": [ 8 ],
                 "visible": false,
                 "searchable": false
             },
