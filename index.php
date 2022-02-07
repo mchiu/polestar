@@ -94,15 +94,15 @@ $(document).ready(function() {
           <th>Dealer</th>
           <th>pno34</th>
           <th>pno34_dealerCode</th>
-          <th>EarliestDelivery</th>
-          <th>TotalPrice</th>
+          <th>Earliest Date</th>
+          <th>Price</th>
           <th>Color</th>
           <th>Upholstery</th>
           <th>Rims</th>
           <th>Model</th>
           <th>Engine</th>
           <th>modelYear</th>
-          <th>Performance</th>
+          <th>Perform</th>
           <th>Pilot</th>
           <th>Plus</th>
           <th>end</th>
