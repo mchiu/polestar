@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-    <meta charset="utf-8" />
-    <title>Polestar Fun Tracker</title>
+<head>
+  <meta charset="utf-8" />
+  <meta name="description" content="An inventory tracker for pre-configured Polestar 2 cars">
+  <meta name="keywords" content="Polestar, Polestar 2, pre-configured">
+
+  <title>Polestar Fun Tracker</title>
 <script
               src="https://code.jquery.com/jquery-3.6.0.js"
               integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
@@ -27,7 +30,7 @@
 <body>
 
     <div style="color: red">** For research purposes only. Check the <a href="https://polestar.com">Polestar website</a> for official data. **</div>
-    <div style="color: red">** Update 2022-01-31 Official Polestar website changed their code to add pagination. Work around applied ... **</div>
+    <div style="color: red">** Data is updated automatically throughout the day **</div>
     <div class="smaller">Each filter now allows multiple selections. Command + click to select additional options.</div>
     <div class="smaller">Comments and questions may be sent to polestarfund@gmail.com</div>
   
