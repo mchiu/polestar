@@ -6,7 +6,7 @@
   <meta name="description" content="An inventory tracker for pre-configured Polestar 2 cars">
   <meta name="keywords" content="Polestar, Polestar 2, pre-configured">
 
-  <title>Polestar Fun Tracker</title>
+  <title>Polestar 2 Pre-configured Inventory Tracker</title>
 <script
               src="https://code.jquery.com/jquery-3.6.0.js"
               integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
