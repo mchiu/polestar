@@ -118,7 +118,7 @@ $(document).ready(function() {
       <tbody>
 
 <?php 
-    if (isset($_GET['market']) && (in_array($_GET['market'], array('au'))))
+    if (isset($_GET['market']) && (in_array($_GET['market'], array('au', 'ca'))))
         echo file_get_contents("http://overlunch.com/pole/csv/" . $_GET['market'] . "_data.html");
     else
         echo file_get_contents("http://overlunch.com/pole/csv/data.html");
