@@ -113,8 +113,13 @@ $(document).ready(function() {
       </thead>
       <tbody>
 
-<?php echo file_get_contents("http://overlunch.com/pole/csv/data.html"); ?>
-    </tbody>
+<?php 
+    if (isset($_GET['market']) && (in_array($_GET['market'], array('au'))))
+        echo file_get_contents("http://overlunch.com/pole/csv/" . $_GET['market'] . "_data.html");
+    else
+        echo file_get_contents("http://overlunch.com/pole/csv/data.html");
+?>
+     </tbody>
 <tfoot>
 <tr>
           <th>Dealer</th>
