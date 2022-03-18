@@ -31,6 +31,7 @@
 
     <div style="color: red">** For research purposes only. Check the <a href="https://polestar.com">Polestar website</a> for official data. **</div>
     <div style="color: red">** Data is updated automatically throughout the day **</div>
+    <div style="color: red">** Available countries: <a href="index.php"><img src="flags/us.png" height="24"></a> <a href="index.php?market=au"><img src="flags/au.png" height="24"></a> **</div>
     <div class="smaller">Each filter now allows multiple selections. Command + click to select additional options.</div>
     <div class="smaller">Comments and questions may be sent to polestarfund@gmail.com</div>
   
