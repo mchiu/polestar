@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+
+html,
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  letter-spacing: -0.035em;
+}
+
+body {
+  background: rgb(255, 255, 255);
+  color: #000;
+  padding: 4rem;
+}
+
+a,
+a:link,
+a:visited {
+  color: rgb(240, 110, 0);
+}
+
+h1,
+h2,
+h3 {
+  font-weight: normal;
+}
+
+th,
+td {
+  text-align: left;
+}
+
+.button-link {
+  background: #000;
+  color: #fff;
+  text-decoration: none;
+}
+  .button-link::after {
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+  }
+
+.notices {
+  background: rgb(247, 234, 72);
+  padding: 1rem 4rem;
+  margin: 1rem auto;
+  font-size: 0.9rem;
+}
+
+*:first-child {
+  margin-top: 0;
+}
+*:last-child {
+  margin-bottom: 0;
+}
+
+.country-selector {
+  margin: 1rem 0;
+}
+.country-selector a {
+  align-items: center;
+  display: inline-flex;
+  height: 2rem;
+  justify-content: center;
+  text-decoration: none;
+  width: 2rem;
+}
+.country-selector a.active {
+  border-bottom: 2px solid rgb(240, 110, 0);
+}
+
+.dataTables_wrapper .dataTables_filter {
+  margin-bottom: 1rem;
+}
+
+.inventory-table-layout {
+  background: rgba(236, 236, 231, 0.6);
+  padding: 2rem;
+}
+.inventory-table-container {
+  overflow-x: auto;
+  position: relative;
+}
+.inventory-table {
+  min-width: 100%;
+}
+
+table.dataTable thead th,
+table.dataTable tfoot th {
+  padding-left: 0;
+  font-weight: 300;
+}
+table.dataTable thead th {
+  border-bottom: 1px solid rgba(0,0,0,0.18);
+}
+table.dataTable tfoot th {
+  border-top: 1px solid rgba(0,0,0,0.18);
+}
+
+table.dataTable tbody tr {
+  background: transparent;
+}
+table.dataTable tbody th,
+table.dataTable tbody td {
+  padding-left: 0;
+}
+
+select,
+select:active,
+select:focus {
+  border: none;
+  width: 100%;
+  border-radius: 0;
+}
+select:active,
+select:focus {
+  outline: 2px solid rgb(240, 110, 0);
+}
+select option:checked {
+  background-color: #ff7500;
+}
+
+.dataTables_wrapper .dataTables_filter input,
+.dataTables_wrapper .dataTables_length select[name="example_length"] {
+  border-radius: 0;
+  border-width: 0;
+  border-bottom: 2px solid #000;
+  display: inline-block;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  letter-spacing: -0.035em;
+  margin: 0 0.25rem;
+  padding: 0.125rem;
+  outline: none;
+}
+
+.dataTables_wrapper .dataTables_length select[name="example_length"] {
+  width: 3rem;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button,
+.dataTables_wrapper .dataTables_paginate .paginate_button.current,
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+  background: rgb(240, 110, 0);
+  border-radius: 0;
+  border: none;
+  color: #fff !important;
+}
+
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: rgb(0, 0, 0);
+    color: #fff;
+  }
+
+  .notices {
+    color: #000;
+  }
+
+  .inventory-table-layout {
+    background-color: rgba(236, 236, 231, 0.1);
+  }
+
+  .dataTables_wrapper .dataTables_length,
+  .dataTables_wrapper .dataTables_filter,
+  .dataTables_wrapper .dataTables_info,
+  .dataTables_wrapper .dataTables_processing,
+  .dataTables_wrapper .dataTables_paginate {
+    color: #aaa;
+  }
+
+  .dataTables_wrapper .dataTables_filter input,
+  .dataTables_wrapper .dataTables_length select[name="example_length"] {
+    border-color: #aaa;
+    color: #fff;
+  }
+
+  select,
+  select:active,
+  select:focus {
+    background: rgba(236, 236, 231, 0.1);
+    color: #aaa;
+  }
+}
