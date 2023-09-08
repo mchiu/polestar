@@ -72,7 +72,7 @@ if ((isset($watch)) && ($a != 'Polestar 2')) {
                 $a = '20in 4-Y Spoke';
                 break;
         }
-        $a = str_replace(" with Black Ash deco", "", $a);
+        $a = str_replace(" with Light Ash deco", "", $a);
         $a = str_replace("Animal welfare Nappa leather in Zinc with Light ash deco", "Nappa leather Zinc", $a);
         $a = str_replace("Dual Motor", "Dual Motor", $a);
         $a = str_replace("Long range Single motor - RWD", "Long Range Single Motor", $a);
