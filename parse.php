@@ -22,18 +22,20 @@ if ((isset($watch)) && ($a != 'Polestar 2')) {
     unset($watch);
 }
         switch ($a) {
+        /*
             case "19'' 5-Double Spoke Black Diamond Cut Alloy Wheel - Summer Tire":
                 $a = '19in Alloy';
                 break;
-
+        */
             case "20'' 5-V Spoke Black Silver Alloy Wheel":
                 $a = '20in Alloy';
                 break;
 
+        /*
             case "19'' 5-Double Spoke Black Diamond Cut Alloy Wheel":
                 $a = '19in Alloy';
                 break;
-
+        */
             case '20" 4-V Spoke Black Diamond Cut Alloy Wheel':
                 $a = '20in Alloy';
                 break;
@@ -42,7 +44,13 @@ if ((isset($watch)) && ($a != 'Polestar 2')) {
                 $a = '20in Forged Alloy';
                 break;
 
+        /*
             case '19" 5-V Spoke Black Diamond Cut Alloy Wheel - Summer Tire':
+                $a = '19in Alloy';
+                break;
+        */
+            
+            case '19" 5-Double Spoke Black Diamond Cut Alloy Wheel - All-Season Tires'
                 $a = '19in Alloy';
                 break;
         }
