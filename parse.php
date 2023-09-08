@@ -47,17 +47,25 @@ if ((isset($watch)) && ($a != 'Polestar 2')) {
                 break;
         */
             
-            case '19" 5-Double Spoke Black Diamond Cut Alloy Wheel - All-Season Tires';
+            case "19'' 5-Double Spoke Black Diamond Cut Alloy Wheel - All-Season Tires";
                 $a = '19in Alloy';
                 break;
                 
-            case '20" 5-V Spoke Black Silver Alloy Wheel - All-Season Tires';
+            case "19'' 5-Double Spoke Black Diamond Cut Alloy Wheel - Summer Tire";
+                $a = '19in Alloy';
+                break;
+                
+            case "20'' 5-V Spoke Black Silver Alloy Wheel - All-Season Tires";
                 $a = '20in 5-V Spoke';
                 break;
 
-            case '20" 4-Multi spoke black polished forged wheel';
+            case '20″ 4-Multi spoke black polished forged wheel';
                 $a = '20in 4-Multi Spoke';
-                break;                
+                break;
+
+            case '20" 4-Y Spoke Black Polished Forged Alloy Wheel - Summer Tire';
+                $a = '20in 4-Y Spoke';
+                break;
         }
         $a = str_replace(" with Black Ash deco", "", $a);
         $a = str_replace("Animal welfare Nappa leather in Zinc with Light ash deco", "Nappa leather Zinc", $a);
