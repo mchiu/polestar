@@ -47,7 +47,7 @@ if ((isset($watch)) && ($a != 'Polestar 2')) {
                 break;
         */
             
-            case '19" 5-Double Spoke Black Diamond Cut Alloy Wheel - All-Season Tires'
+            case '19" 5-Double Spoke Black Diamond Cut Alloy Wheel - All-Season Tires';
                 $a = '19in Alloy';
                 break;
                 
