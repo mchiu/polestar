@@ -60,13 +60,10 @@ if ((isset($watch)) && ($a != 'Polestar 2')) {
                 break;                
         }
         $a = str_replace(" with Black Ash deco", "", $a);
-        $a = str_replace("Ventilated Nappa leather Barley with reconstructed wood deco", "Nappa leather Barley", $a);
-        $a = str_replace("Ventilated Nappa leather Zinc with Light Ash deco", "Nappa leather Zinc", $a);
-        $a = str_replace(" Embossed Textile with 3D Etched deco", " Textile", $a);
-        $a = str_replace("Long range Dual motor - AWD", "Dual Motor", $a);
-        $a = str_replace("Long range Single motor - FWD", "Single Motor", $a);
-//        $a = str_replace("Long range Dual motor with Performance pack - AWD", "LRDM with Perf Pack - AWD", $a);
-        $a = str_replace("Long range Dual motor with Performance pack - AWD", "Dual Motor", $a);
+        $a = str_replace("Animal welfare Nappa leather in Zinc with Light ash deco", "Nappa leather Zinc", $a);
+        $a = str_replace("Dual Motor", "Dual Motor", $a);
+        $a = str_replace("Long range Single motor - RWD", "Long Range Single Motor", $a);
+        $a = str_replace("Long range Dual motor with Performance pack", "Dual Motor (Performance)", $a);
     echo "<td>" . $a . "</td>";
     }
     echo "\n";
