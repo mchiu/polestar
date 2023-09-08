@@ -26,16 +26,14 @@ if ((isset($watch)) && ($a != 'Polestar 2')) {
             case "19'' 5-Double Spoke Black Diamond Cut Alloy Wheel - Summer Tire":
                 $a = '19in Alloy';
                 break;
-        */
+
             case "20'' 5-V Spoke Black Silver Alloy Wheel":
                 $a = '20in Alloy';
                 break;
 
-        /*
             case "19'' 5-Double Spoke Black Diamond Cut Alloy Wheel":
                 $a = '19in Alloy';
                 break;
-        */
             case '20" 4-V Spoke Black Diamond Cut Alloy Wheel':
                 $a = '20in Alloy';
                 break;
@@ -44,7 +42,6 @@ if ((isset($watch)) && ($a != 'Polestar 2')) {
                 $a = '20in Forged Alloy';
                 break;
 
-        /*
             case '19" 5-V Spoke Black Diamond Cut Alloy Wheel - Summer Tire':
                 $a = '19in Alloy';
                 break;
@@ -53,6 +50,14 @@ if ((isset($watch)) && ($a != 'Polestar 2')) {
             case '19" 5-Double Spoke Black Diamond Cut Alloy Wheel - All-Season Tires'
                 $a = '19in Alloy';
                 break;
+                
+            case '20" 5-V Spoke Black Silver Alloy Wheel - All-Season Tires';
+                $a = '20in 5-V Spoke';
+                break;
+
+            case '20" 4-Multi spoke black polished forged wheel';
+                $a = '20in 4-Multi Spoke';
+                break;                
         }
         $a = str_replace(" with Black Ash deco", "", $a);
         $a = str_replace("Ventilated Nappa leather Barley with reconstructed wood deco", "Nappa leather Barley", $a);
